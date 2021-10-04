@@ -1,8 +1,9 @@
 body{
     text-align: justify;
-    background-color: burlywood;
-    background-image: url(/images/light-grey-background.jpg);
-
+    background-color: #FADCD9;
+    background-image: url(images/light-grey-background.jpg);
+    font-family: 'Ephesis', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main{
@@ -16,9 +17,8 @@ main{
 }
 
 header {
-    background-image: url(/images/be-kind-banner-hands-1.jpg);
+    background-image: url(images/be-kind-banner-hands-1.jpg);
     height: 650px;
-    color:blue;
     background-repeat: no-repeat;
     background-size: 100% auto;
     margin: -8px;
@@ -39,7 +39,7 @@ article {
     padding-top: 20px;
     height: 200px;
     width: 40%;
-    background:rgba(255,255,255, 0.7);color: black;
+    background:rgba(255,255,255, 0.7);color: #000000;
     border-radius: 5px;
     margin-top: 80px;
     margin-left: auto;
@@ -73,6 +73,8 @@ article {
 .big-h2{
     font-size: 40px;
 }
-h1{
+.text-me{
+    font-family: 'Ephesis', cursive;
+    /*font-family: 'Open Sans', sans-serif;*/
     font-size: 50px;
 }
